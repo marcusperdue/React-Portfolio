@@ -1,0 +1,80 @@
+.project-card {
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+    border: 1px solid #ddd;
+    margin: 10px;
+    margin-left: 50px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-info {
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.project-title {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.project-description {
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.project-technologies {
+    margin: 10px 0;
+    font-size: 0.85em;
+}
+
+.project-technologies span {
+    display: inline-block;
+    background-color: #e4e4e4;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.project-links a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}
+
+
+.my-container {
+    /* Set a minimum height */
+    min-height: 350px; /* Adjust this value based on your card size and scaling factor */
+    padding-bottom: 20px; /* Add some space at the bottom */
+    width: max-content;
+}
+
+ 
+@media (min-width: 768px) {
+    .project-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+
+ 

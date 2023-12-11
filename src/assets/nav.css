@@ -1,0 +1,7 @@
+#mobile-menu-button.active #bar1 {
+    transform: rotate(45deg) translate(2px, 2px);
+}
+
+#mobile-menu-button.active #bar2 {
+    transform: rotate(-45deg) translate(2px, -2px);
+}
