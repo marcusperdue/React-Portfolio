@@ -7,6 +7,11 @@ import About from './components/AboutMe';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 
+
+import './assets/styles.css';
+import './assets/nav.css';
+import './assets/works.css';
+
 function App() {
   return (
     <Router>
