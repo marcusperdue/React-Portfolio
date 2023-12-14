@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .dot {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1394px) {
+    .hero-image-container {
+        width: 60%; /* Adjust this value as needed for your desired width */
+    }
+}
+
+@media (max-width: 1162px) {
+    .hero-image-container {
+        width: 90%; /* Adjust this value as needed for your desired width */
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-image-container {
+        width: 90%; /* Adjust this value as needed for your desired width */
+    }
+}
+ 

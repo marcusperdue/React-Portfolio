@@ -1,7 +1,7 @@
  // Hero.jsx
 import Footer from './Footer';  
  
-
+ 
 function Hero() {
   return (
     <section id="home" className="hero-section bg-gray-900 text-white flex min-h-screen justify-center items-center flex-col">

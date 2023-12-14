@@ -1,5 +1,6 @@
  // Navigation.jsx
 import logo from '../assets/images/logo.png';
+import { useState } from 'react'; 
 
 const Navigation = () => {
   const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);

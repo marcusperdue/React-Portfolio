@@ -8,27 +8,28 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 
 
-import './assets/styles.css';
-import './assets/nav.css';
-import './assets/works.css';
+import './assets/css/styles.css';
+import './assets/css/nav.css';
+import './assets/css/works.css';
+import './assets/css/media.css';
 
-function App() {
+function MainApp() {
   return (
     <Router>
-      <div>
-        <Header />
-        <Navigation />
-        <Routes>
-          <Route path="/" element={<Hero />} />  
-          <Route path="/portfolio" element={<Project />} />
-          <Route path="/about" element={<About />} />  
-          <Route path="/works" element={<Project />} />  
-          <Route path="/contact" element={<Contact />} />  
-          <Route path="/resume" component={Resume} />
-        </Routes>
-      </div>
-    </Router>
+    <div>
+      <Header />
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Hero />} /> 
+        <Route path="/portfolio" element={<Project />} />
+        <Route path="/about" element={<About />} /> 
+        <Route path="/works" element={<Project />} />  
+        <Route path="/contact" element={<Contact />} />  
+        <Route path="/resume" component={Resume} />
+      </Routes>
+    </div>
+  </Router>
   );
 }
 
-export default App;
+export default MainApp; 
