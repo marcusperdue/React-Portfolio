@@ -8,22 +8,26 @@
     z-index: 999; 
     height: 80px;
     font-family: 'Roboto', sans-serif;
-    
+    background-color: #f9f9f9;
 }
 #contact{
+    background-color:#c6c5c3; 
     color: #363636;
 }
 .works-section {
-    background-color: #F9F9F9;  
+    background-color:#c6c5c3; 
     color: #363636; 
 }
 .hero-section{
-    background-color: #F9F9F9; 
+    background-color: #c6c5c3; 
     color:#363636;
+}
+.resume-page{
+    background-color: #f9f9f9;
 }
 
 .about-section {
-    background-color: #FFFFFF;  
+    background-color: #c6c5c3; 
     color: #363636;  
     font-family: 'Roboto', sans-serif;
 }

@@ -5,7 +5,6 @@ import Footer from './Footer';
 function Hero() {
   return (
     <section id="home" className="hero-section bg-gray-900 text-white flex min-h-screen justify-center items-center flex-col">
-  
       <div className="w-full md:w-3/4 lg:w-1/2 flex flex-col items-center hero-image-container">
         <div className="hero-text w-full text-center mt-30">
           <h1 className="text-xl text-sm md:text-xl lg:text-2xl">Hello, I am Marcus Perdue</h1>

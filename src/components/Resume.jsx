@@ -1,4 +1,5 @@
- 
+import Footer from './Footer'; 
+
 function Resume() {
   const imageUrl = 'src/assets/images/resume.jpg';  
   const pdfUrl = ' /public/resume.pdf';  
@@ -13,6 +14,7 @@ function Resume() {
           Download Resume
         </a>
       </div>
+      <Footer />
     </div>
   );
 }

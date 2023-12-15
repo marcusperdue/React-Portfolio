@@ -45,10 +45,16 @@ const Navigation = () => {
          <li className="mx-2 my-2">
           <a href="/works" className="text-base hover:text-gray-300">WORKS</a>
           <div className="dot hidden md:block"></div>
-        </li> <li className="mx-2 my-2">
+        </li> 
+        <li className="mx-2 my-2">
           <a href="/contact" className="text-base hover:text-gray-300">CONTACT</a>
           <div className="dot hidden md:block"></div>
         </li>
+        <li className="mx-2 my-2">
+          <a href="/resume" className="text-base hover:text-gray-300">RESUME</a>
+          <div className="dot hidden md:block"></div>
+        </li>
+        
       </ul>
     </nav>
   );

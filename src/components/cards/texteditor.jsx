@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 import p4 from '../../assets/images/text-editor.png';
 
 const TextEditorCard = () => {

@@ -3,6 +3,8 @@ import FilmPulseCard from '../components/cards/filmpulse.jsx';
 import GameYapCard from '../components/cards/gameyap.jsx'; 
 import TechBlogCard from '../components/cards/techblog.jsx'; 
 import TextEditorCard from '../components/cards/texteditor.jsx'; 
+import SimpleTip from '../components/cards/texteditor.jsx'; 
+import WeatherDashboard from '../components/cards/texteditor.jsx'; 
 import Footer from './Footer'; 
  
 
@@ -17,6 +19,9 @@ const WorksPage = () => {
           <GameYapCard />
           <TechBlogCard />
           <TextEditorCard />
+          <SimpleTip />
+          <WeatherDashboard />
+           
          
         </div>
       </div>
