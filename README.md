@@ -20,7 +20,7 @@
 </div>
  
 ## Deployment
-The application is deployed on Netlify and can be accessed [here](https://your-portfolio-url.com).
+The application is deployed on Netlify and can be accessed [here](https://ephemeral-rabanadas-49d0f6.netlify.app/).
 
 
 ## Table of Contents
