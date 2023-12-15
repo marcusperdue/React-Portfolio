@@ -25,7 +25,7 @@ function MainApp() {
         <Route path="/about" element={<About />} /> 
         <Route path="/works" element={<Project />} />  
         <Route path="/contact" element={<Contact />} />  
-        <Route path="/resume" component={Resume} />
+        <Route path="/resume" element={<Resume />} />  
       </Routes>
     </div>
   </Router>

@@ -8,7 +8,7 @@ const Contact = () => {
 
       <div className="w-full md:w-3/4 lg:w-1/2 px-4 mb-20 mx-auto">
         <div className="shadow-2xl rounded-xl p-8">
-          <form action="" method="post">
+          <form action="https://formspree.io/f/xvojgdgr" method="post">
             <div className="mb-4">
               <input
                 type="text"

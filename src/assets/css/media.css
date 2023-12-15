@@ -6,19 +6,19 @@
 
 @media (max-width: 1394px) {
     .hero-image-container {
-        width: 60%; /* Adjust this value as needed for your desired width */
+        width: 60%;  
     }
 }
 
 @media (max-width: 1162px) {
     .hero-image-container {
-        width: 90%; /* Adjust this value as needed for your desired width */
+        width: 90%;  
     }
 }
 
 @media (max-width: 500px) {
     .hero-image-container {
-        width: 90%; /* Adjust this value as needed for your desired width */
+        width: 90%;  
     }
 }
  

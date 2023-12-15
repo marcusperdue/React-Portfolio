@@ -11,13 +11,12 @@ function Hero() {
           <h1 className="text-xl text-sm md:text-xl lg:text-2xl">Hello, I am Marcus Perdue</h1>
           <h2 className="font-extrabold heading-font text-3xl md:text-3xl lg:text-7xl mb-2">Full Stack Developer</h2>
           <div className="text-center">
-       
-            <a href="/Resume - (Marcus Perdue).pdf" target="_blank">
+            <a href="/resume" target="_blank">
               <button className="custom-button mr-4 mb-2">
                 Download Resume
               </button>
             </a>
-            <a href="#contact">
+            <a href="/contact">
               <button className="custom-button">
                 Lets Talk!
               </button>

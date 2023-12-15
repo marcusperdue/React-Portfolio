@@ -1,11 +1,11 @@
  
  
 .navbar {
-    position: fixed; /* Fix the navigation bar at the top */
-    top: 0; /* Position at the top of the viewport */
-    width: 100%; /* Take up the full width */
-    color: #363636; /* Light Gray */
-    z-index: 999; /* Ensure it appears above other elements */
+    position: fixed;  
+    top: 0;  
+    width: 100%;  
+    color: #363636; 
+    z-index: 999; 
     height: 80px;
     font-family: 'Roboto', sans-serif;
     
@@ -14,8 +14,8 @@
     color: #363636;
 }
 .works-section {
-    background-color: #F9F9F9; /* Light Gray */
-    color: #363636; /* Dark Gray */
+    background-color: #F9F9F9;  
+    color: #363636; 
 }
 .hero-section{
     background-color: #F9F9F9; 
@@ -23,53 +23,49 @@
 }
 
 .about-section {
-    background-color: #FFFFFF; /* White */
-    color: #363636; /* Dark Gray */
+    background-color: #FFFFFF;  
+    color: #363636;  
     font-family: 'Roboto', sans-serif;
 }
-  /* Apply styles to the image for expansion and box shadow on hover */
+   
 .about-image img {
     max-width: 100%;
     max-height: 150px;
     height: auto;
 }
  
-
-
-/* Dot indicators */
 .dot {
     width: 8px;
     height: 8px;
     background-color: transparent;
     border: 2px solid black;
     border-radius: 50%;
-    display: block; /* Display dots as block elements */
-    margin: 0 auto; /* Center-align dots horizontally */
-    margin-top: 4px; /* Adjust the spacing between dots and words */
+    display: block;  
+    margin: 0 auto; 
+    margin-top: 4px; 
 }
 .active-dot {
-    background-color: black; /* Fill the dot for the active navigation item */
+    background-color: black;  
 }
 
 
 .image-container {
     max-width: 1800px;
-    transition: transform 0.6s; /* Add a smooth transition effect */
+    transition: transform 0.6s;  
 }
 
 .image-container:hover {
-    transform: scale(1.1); /* Increase the size on hover */
+    transform: scale(1.1);  
 }
 
 .contact-btn {
-    background-color: black; /* Change the background color */
-    color: #363636;/* Change the text color to white */
-    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    background-color: black; 
+    color: #363636; 
+    transition: background-color 0.3s ease;  
 }
 
-/* Add a hover effect to change the button color on hover */
 .contact-btn:hover {
-    background-color: #555555; /* Change the background color on hover */
+    background-color: #555555;  
 }
  
  @media (max-width: 768px) {
@@ -78,19 +74,56 @@
     }
 }
 
-/* Style for the "Let's Talk!" button */
 .custom-button {
-    background-color: transparent; /* Set the background color to transparent */
-    color: #000; /* Text color */
-    border: 2px solid #000; /* Black border */
-    padding: 12px 24px; /* Adjust padding as needed */
-    font-size: 18px; /* Adjust font size as needed */
-    border-radius: 8px; /* Adjust border radius as needed */
+    background-color: transparent; 
+    color: #000; 
+    border: 2px solid #000;  
+    padding: 12px 24px;  
+    font-size: 18px;  
+    border-radius: 8px; 
     cursor: pointer;
 }
 
 .custom-button:hover {
-    background-color: transparent; /* Keep the background color transparent on hover */
-    border-color: #0e5cb8; /* Change the border color on hover */
-    color: #0e5cb8; /* Change the text color on hover */
+    background-color: transparent;  
+    border-color: #0e5cb8;  
+    color: #0e5cb8; 
 }
+
+
+ 
+.resume-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .resume-container {
+    max-width: 100%;
+  }
+  
+  .download-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;  
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+ 
+  @media (max-width: 768px) {
+    .resume-container {
+      max-width: 90%;
+    }
+  
+    .download-link a {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .download-link a {
+      font-size: 14px;
+    }
+  }
+  

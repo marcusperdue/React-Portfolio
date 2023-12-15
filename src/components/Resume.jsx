@@ -1,9 +1,18 @@
-
-
+ 
 function Resume() {
+  const imageUrl = 'src/assets/images/resume.jpg';  
+  const pdfUrl = ' /public/resume.pdf';  
+
   return (
-    <div>
-      <embed src="./" type="application/pdf" width="100%" height="800px" />
+    <div className="resume-page text-white flex min-h-screen justify-center items-center flex-col">
+      <div className="resume-container mt-4">
+        <img src={imageUrl} alt="Resume" />
+      </div>
+      <div className="download-link mt-4">
+        <a href={pdfUrl} download="resume.pdf">
+          Download Resume
+        </a>
+      </div>
     </div>
   );
 }
