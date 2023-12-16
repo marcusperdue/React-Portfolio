@@ -1,8 +1,8 @@
 import Footer from './Footer'; 
 
 function Resume() {
-  const imageUrl = 'src/assets/images/resume.jpg';  
-  const pdfUrl = 'src/assets/images/resume.pdf';  
+  const imageUrl = './assets/images/resume.jpg';  
+  const pdfUrl = './assets/images/resume.pdf';  
 
   return (
     <div className="resume-page text-white flex min-h-screen justify-center items-center flex-col">
