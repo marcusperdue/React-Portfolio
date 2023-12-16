@@ -1,5 +1,4 @@
-import React from 'react';
-import p2 from '../../assets/images/gameyap.png';
+ import p2 from '../../assets/images/gameyap.png';
 
 const GameYapCard = () => {
   return (
