@@ -11,7 +11,7 @@
     background-color: #f9f9f9;
 }
 #contact{
-    background-color:#c6c5c3; 
+    background-color:#f9f9f9;
     color: #363636;
 }
 .works-section {
@@ -23,11 +23,11 @@
     color:#363636;
 }
 .resume-page{
-    background-color: #f9f9f9;
+    background-color: #c6c5c3; 
 }
 
 .about-section {
-    background-color: #c6c5c3; 
+    background-color: #f9f9f9;
     color: #363636;  
     font-family: 'Roboto', sans-serif;
 }
