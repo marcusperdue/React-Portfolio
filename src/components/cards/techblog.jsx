@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 import p3 from '../../assets/images/tech-blog.png';
 
 const TechBlogCard = () => {
